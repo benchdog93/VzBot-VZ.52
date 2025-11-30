@@ -1,0 +1,9 @@
+# Never accidentally commit secrets
+*.secret
+*.token
+obico*
+telegram*
+KlipperScreen.conf
+mobileraker.conf
+database/
+logs/
