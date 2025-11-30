@@ -1,0 +1,35 @@
+alias: Dry Filament
+description: 'Sart filament drying sequence each day at 8:30 AM'
+triggers:
+  - trigger: time
+    at: "08:00:00"
+conditions:
+  - condition: state
+    entity_id: person.ed_williams
+    state: home
+  - condition: time
+    weekday:
+#      - sat
+#      - fri
+#      - thu
+      - wed
+#      - tue
+#      - mon
+#      - sun
+actions:
+  - action: switch.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id: switch.vz52_plug_relay
+  - delay:
+      hours: 0
+      minutes: 2
+      seconds: 0
+      milliseconds: 0
+  - action: button.press
+    metadata: {}
+    data: {}
+    target:
+      entity_id: button.vzbot_vz_52_macro_dry_filament
+mode: single

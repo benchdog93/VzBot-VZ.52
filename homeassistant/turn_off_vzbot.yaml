@@ -1,0 +1,14 @@
+alias: Turn Off VzBot
+description: 'Turns power off to 3d printer after it is shut down'
+triggers:
+  - trigger: state
+    entity_id: sensor.vzbot_vz_52_current_print_state
+    to: unavailable
+conditions: []
+actions:
+  - action: switch.turn_off
+    metadata: {}
+    data: {}
+    target:
+      entity_id: switch.vz52_plug_relay
+mode: single

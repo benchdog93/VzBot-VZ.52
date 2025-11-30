@@ -1,0 +1,22 @@
+description: "Shuts 3d printer off after being idle for 15 minutes"
+mode: single
+triggers:
+  - trigger: state
+    entity_id:
+      - sensor.vzbot_vz_52_current_print_state
+    to: standby
+conditions:
+  - condition: state
+    entity_id: sensor.vzbot_vz_52_dry_box_target
+    state: "0"
+actions:
+  - delay:
+      hours: 0
+      minutes: 15
+      seconds: 0
+      milliseconds: 0
+  - action: button.press
+    metadata: {}
+    data: {}
+    target:
+      entity_id: button.vzbot_vz_52_macro_shutdown

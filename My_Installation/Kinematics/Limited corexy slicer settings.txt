@@ -1,0 +1,43 @@
+
+
+; Settings for the post-processing script "perAxis.py" that go into the Start GCode section in Orca Slicer.
+; Accelerations are specified in the X_ACCEL / Y_ACCEL / Z_ACCEL format.
+; 
+; ACCEL: 8000/8000/100         for First Layer
+; ACCEL: 14500/14500/100    for Travel
+; ACCEL: 30000/14500/100    for TYPE:Outer wall
+; ACCEL: 30000/14500/100    for TYPE:Overhang wall
+; ACCEL: 30000/14500/100    for TYPE:Inner wall
+; ACCEL: 8000/8000/100        for TYPE:Top surface
+; ACCEL: 30500/14500/100    for TYPE:Internal solid infill
+; ACCEL: 30500/14500/100    for TYPE:Sparse infill
+; ACCEL: 8000/8000/100        for TYPE:Bridge
+; ACCEL: 30500/14500/100    for TYPE:Thin wall
+; ACCEL: 30500/14500/100    for TYPE:Gap infill
+; ACCEL: 8000/8000/100        for TYPE:Skirt
+; ACCEL: 25000/12500/100    for TYPE:Support material
+; ACCEL: 25000/12500/100    for TYPE:Support material interface
+
+
+
+# ;
+# ; Settings for the post-processing script "perAxis.py" that go into the Start GCode section in SuperSlicer.
+# ; Accelerations are specified in the X_ACCEL / Y_ACCEL / Z_ACCEL format.
+# ; 
+# ; ACCEL: 4000/2000/500     for First Layer
+# ; ACCEL: 10000/5000/500    for Travel
+# ; ACCEL: 2000/1000/500     for TYPE:External perimeter
+# ; ACCEL: 2000/1000/500     for TYPE:Overhang perimeter
+# ; ACCEL: 2500/1750/500     for TYPE:Internal perimeter
+# ; ACCEL: 2500/1750/500     for TYPE:Top solid infill
+# ; ACCEL: 4000/2000/500     for TYPE:Solid infill
+# ; ACCEL: 6000/3000/500     for TYPE:Internal infill
+# ; ACCEL: 5000/2500/500     for TYPE:Bridge infill
+# ; ACCEL: 4000/2000/500     for TYPE:Internal bridge infill
+# ; ACCEL: 4000/2000/500     for TYPE:Thin wall
+# ; ACCEL: 2000/1000/500     for TYPE:Gap fill
+# ; ACCEL: 4000/2000/500     for TYPE:Skirt
+# ; ACCEL: 6000/3000/500     for TYPE:Support material
+# ; ACCEL: 6000/3000/500     for TYPE:Support material interface
+# ;
+#

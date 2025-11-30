@@ -1,0 +1,10 @@
+[crowsnest]
+log_level: debug
+log_path: /home/gw/printer_data/logs/crowsnest.log
+
+[cam 1]
+mode: ustreamer
+port: 8080
+device: /dev/video0
+resolution: 640x480
+max_fps: 15

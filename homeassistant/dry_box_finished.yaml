@@ -1,0 +1,15 @@
+alias: Turning Off Dry Box Heater
+description: 'Dry box heating cycle completed turn off VzBot'
+triggers:
+- trigger: state
+  entity_id:
+  - sensor.vzbot_vz_52_current_display_message
+  to: Turning Off Dry Box Heater...
+conditions: []
+actions:
+- action: button.press
+  metadata: {}
+  data: {}
+  target:
+    entity_id: button.vzbot_vz_52_macro_shutdown
+mode: single
