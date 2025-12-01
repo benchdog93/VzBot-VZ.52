@@ -1,4 +1,19 @@
 [Variables]
+colors_list = 'black,white,grey,red,blue,green,yellow,orange,purple,silver,gold,pink,chocolate,lime,marble'
+lane_open = ''
+last_used_color = ''
+last_used_tool = ''
+t0_color = 'black'
+t10_color = 'blue'
+t1_color = 'white'
+t2_color = 'lime'
+t3_color = 'red'
+t4_color = 'chocolate'
+t5_color = 'orange'
+t6_color = 'silver'
+t7_color = 'yellow'
+t8_color = 'purple'
+t9_color = 'green'
 tr_active_lane = None
 tr_calib_bowden_load_length = {'new_set_length': 732.193107216174, 'sample_count': 10}
 tr_calib_bowden_unload_length = {'new_set_length': 717.163299516038, 'sample_count': 10}

@@ -3,10 +3,11 @@
 * Connects my RPi to my Windows PC
 * Allows me to edit in Microsoft VS vs. Fluidds built in editor
 * Allows me to sync my live configuration to my GitHub repository
+* Allows me to sync to my Synology NAS
 
 # ** Samba Installation Process**
 ## You will need to edit this and add your user name if not pi
-## Create file `install_samba_pi.sh`: 'replace gw with your pi user name here and in all the places gw appears in the below script' 
+## Create file `install_samba_pi.sh`: 'replace pi with your pi user name here if required' 
 
 ```
 #!/bin/bash

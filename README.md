@@ -194,7 +194,7 @@ Stepper-flip nozzle wiper
 - **OS:** Raspberry Pi OS Lite (Debian Bookworm 64-bit recommended)  
 - **Slicer Configs:** Provided for limited CoreXY and per-axis adjustments
 - **Spoolman:** integration with real-time spool selection in Fluidd/Mainsail
-- **Samba:** implimentation of SMB and Active Directory allowing real-time file editing and management, see [INSTALL.md](https://github.com/benchdog93/VzBot-VZ.52/blob/main/My_Installation/INSTALL.md) for installing Samba
+- **Samba:** implimentation of SMB and Active Directory allowing real-time file editing, management,sync to NAS, see [INSTALL.md](https://github.com/benchdog93/VzBot-VZ.52/blob/main/My_Installation/Samba%20Install.md) for installing Samba
 
 
 ## Integration
