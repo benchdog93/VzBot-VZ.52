@@ -1,12 +1,17 @@
 
 # --- git push commands ---
-cd ~/VzBot-VZ.52 && vzpush   # pushes the change
-vzlink     # refreshes all symlinks in 0.2 seconds
+cd ~
+cp -r ~/printer_data/config/* ~/VzBot-VZ.52/        # overwrites everything
+cd ~/VzBot-VZ.52
+git add .
+git commit -m "update $(date +"%Y-%m-%d %H:%M")"
+git push
 
-# cd ~/VzBot-VZ.52
-# git add .
-# git commit -m "updated whatever"
-# git push
+cd ~/VzBot-VZ.52 && git pull
+
+cd ~/VzBot-VZ.52 && git fetch && git reset --hard origin/main && git pull
+
+vzup
 
 # Clone the VzBot configuration repository
 git clone https://github.com/benchdog93/VzBot-VZ.52.git ~/VzBot-VZ.52
@@ -29,7 +34,7 @@ sudo i2cdetect -y 1
  
 lsusb
 ./scripts/uninstall.sh
-rm -rf ~/crowsnest
+rm -rf ~/beacon
 ./kiauh/kiauh.sh
 
 # --- Tradrak Commands ---
