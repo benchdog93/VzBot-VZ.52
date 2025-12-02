@@ -1,5 +1,5 @@
 [Variables]
-colors_list = 'black,white,grey,red,blue,green,yellow,orange,purple,silver,gold,pink,chocolate,lime,marble'
+colors_list = 'black,white,lime,red,chocolate,orange,silver,yellow,purple,green,blue'
 lane_open = ''
 last_used_color = ''
 last_used_tool = ''
