@@ -9,8 +9,6 @@ git push
 
 cd ~/VzBot-VZ.52 && git pull
 
-cd ~/VzBot-VZ.52 && git fetch && git reset --hard origin/main && git pull
-
 vzup
 
 # Clone the VzBot configuration repository
