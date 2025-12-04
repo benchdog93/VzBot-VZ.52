@@ -1,8 +1,8 @@
 [Variables]
 colors_list = 'black,white,lime,red,chocolate,orange,silver,yellow,purple,green,blue'
 lane_open = ''
-last_used_color = ''
-last_used_tool = ''
+last_used_color = 'white'
+last_used_tool = '1'
 t0_color = 'black'
 t10_color = 'blue'
 t1_color = 'white'
@@ -15,8 +15,8 @@ t7_color = 'yellow'
 t8_color = 'purple'
 t9_color = 'green'
 tr_active_lane = None
-tr_calib_bowden_load_length = {'new_set_length': 727.8845635677474, 'sample_count': 10}
-tr_calib_bowden_unload_length = {'new_set_length': 694.194797797106, 'sample_count': 10}
+tr_calib_bowden_load_length = {'new_set_length': 729.3804585756016, 'sample_count': 10}
+tr_calib_bowden_unload_length = {'new_set_length': 708.4621825726774, 'sample_count': 10}
 tr_config_bowden_length = 800.0
 tr_last_heater_target = 255.0
 
