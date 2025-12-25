@@ -39,10 +39,9 @@ rm -rf ~/beacon
 # --- Tradrak Commands ---
 set_active_spool ID=T0
 TR_HOME
-TR_GO_TO_LANE
+TR_GO_TO_LANE LANE=0
 TR_LOAD_LANE
-TR_LOAD_TOOLHEAD
-T0, T1, T2, etc.
+TR_LOAD_TOOLHEAD    T0, T1, T2, etc.
 TR_UNLOAD_TOOLHEAD
 TR_SERVO_DOWN
 TR_SERVO_UP
