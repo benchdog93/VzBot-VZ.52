@@ -29,7 +29,8 @@ sudo shutdown -h 10 # in 10 minutes
 sudo init 0
 vcgencmd get_camera
 sudo i2cdetect -y 1
- 
+grep -R "PE6" ~/printer_data/config # search commands
+ls /dev/serial/by-id/*
 lsusb
 ./scripts/uninstall.sh
 rm -rf ~/beacon
